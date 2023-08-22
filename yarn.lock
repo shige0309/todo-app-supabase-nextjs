@@ -429,7 +429,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.20":
+"@types/react@npm:*, @types/react@npm:^18.2.20":
   version: 18.2.20
   resolution: "@types/react@npm:18.2.20"
   dependencies:
@@ -3520,21 +3520,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-query@npm:3.34.19":
-  version: 3.34.19
-  resolution: "react-query@npm:3.34.19"
+"react-query@npm:latest":
+  version: 3.39.3
+  resolution: "react-query@npm:3.39.3"
   dependencies:
     "@babel/runtime": ^7.5.5
     broadcast-channel: ^3.4.1
     match-sorter: ^6.0.2
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
   peerDependenciesMeta:
     react-dom:
       optional: true
     react-native:
       optional: true
-  checksum: 765bec81e521a78ef04a8feb6710041ce838ef82bf6e1d35c7e9327cc242b232b242fd89f3604adf6747dce2df055d12b15e8e4208687cc5eb493c1c0bf71d34
+  checksum: d2de6a0992dbf039ff2de564de1ae6361f8ac7310159dae42ec16f833b79c05caedced187235c42373ac331cc5f2fe9e2b31b14ae75a815e86d86e30ca9887ad
   languageName: node
   linkType: hard
 
@@ -4135,7 +4135,7 @@ __metadata:
     "@heroicons/react": 1.0.6
     "@supabase/supabase-js": 1.33.3
     "@types/node": 20.5.1
-    "@types/react": 18.2.20
+    "@types/react": ^18.2.20
     "@types/react-dom": 18.2.7
     autoprefixer: ^10.4.15
     eslint: 8.47.0
@@ -4146,7 +4146,7 @@ __metadata:
     prettier-plugin-tailwindcss: ^0.5.3
     react: 18.2.0
     react-dom: 18.2.0
-    react-query: 3.34.19
+    react-query: latest
     tailwindcss: ^3.3.3
     typescript: 5.1.6
     zustand: 3.7.1
